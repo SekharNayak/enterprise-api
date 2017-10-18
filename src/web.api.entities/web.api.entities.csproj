@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bogus.cs" />
+    <Compile Include="NonsenseUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UseLess.cs" />
   </ItemGroup>

@@ -27,7 +27,8 @@ namespace web.api
         }
 
         /// <summary>
-        /// For registering in start up class.Its your preference.
+        /// For registering in start up class.
+        /// Its your preference.
         /// </summary>
         /// <returns></returns>
         public static HttpConfiguration Register()
@@ -43,6 +44,9 @@ namespace web.api
                 defaults: new { id = RouteParameter.Optional }
             );
 
+
+            //to deliver camelcasing incase of javascript client .
+            
             return config;
         }
     }

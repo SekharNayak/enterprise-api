@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace web.api.entities
 {
+    using System;
+    using System.Collections.Generic;
+
     public class UseLess
     {
         public int UseLessId { get; set; }
@@ -13,5 +11,6 @@ namespace web.api.entities
         public string UseLessDescription { get; set; }
         public DateTime CreatedOn { get; set; }
         public string UselessHref { get; set; }
+        public IEnumerable<Bogus> BogusCollection { get; set; }
     }
 }
