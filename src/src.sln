@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.api.test", "web.api.tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.api.middlewares", "web.api.middlewares\web.api.middlewares.csproj", "{48DC57BF-4270-4C8B-882C-E557A1AD33B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.api.services", "web.api.services\web.api.services.csproj", "{E28754FD-674E-4335-8A85-834374F22561}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{48DC57BF-4270-4C8B-882C-E557A1AD33B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48DC57BF-4270-4C8B-882C-E557A1AD33B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48DC57BF-4270-4C8B-882C-E557A1AD33B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E28754FD-674E-4335-8A85-834374F22561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E28754FD-674E-4335-8A85-834374F22561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E28754FD-674E-4335-8A85-834374F22561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E28754FD-674E-4335-8A85-834374F22561}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
