@@ -8,6 +8,8 @@ namespace web.api.repositories
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
+
+      
         public void Delete(int id)
         {
             throw new NotImplementedException();
