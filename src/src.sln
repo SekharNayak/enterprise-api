@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.api.entities", "web.api
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.api.filters", "web.api.filters\web.api.filters.csproj", "{EA30A85B-835A-46DB-A478-3A949D80F309}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.api.formatters", "web.api.formatters\web.api.formatters.csproj", "{D6F8AB6C-E23B-4F7C-9701-3CC2311E1EF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{EA30A85B-835A-46DB-A478-3A949D80F309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA30A85B-835A-46DB-A478-3A949D80F309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA30A85B-835A-46DB-A478-3A949D80F309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F8AB6C-E23B-4F7C-9701-3CC2311E1EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F8AB6C-E23B-4F7C-9701-3CC2311E1EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F8AB6C-E23B-4F7C-9701-3CC2311E1EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F8AB6C-E23B-4F7C-9701-3CC2311E1EF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
